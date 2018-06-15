@@ -112,7 +112,7 @@ public class Login_view extends AppCompatActivity {
 
 
     private boolean makeRequest2(final String user, final String pass){
-        String url = ip + "api-2/public/api/login2";
+        String url = ip + "api-penalolen/public/api/login2";
 
         StringRequest postRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>()
